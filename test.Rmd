@@ -1,0 +1,16 @@
+---
+title: "test"
+output:
+  bookdown::pdf_document2:
+    keep_tex: yes
+    latex_engine: lualatex 
+documentclass: ltjsarticle
+---
+
+ここでおもむろに図\@ref(fig:plot1)をプロットしよう。
+
+```{r plot1, fig.cap="ご覧ください、このきれいなプロット！"}
+plot(1)
+```
+
+おわかりいただけただろうか...
